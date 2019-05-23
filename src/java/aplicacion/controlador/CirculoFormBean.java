@@ -27,8 +27,8 @@ private Circulo circulo;
         circulos = new ArrayList();
         circulo = new Circulo();
     }
-
-    public void cargarCirculos(){
+    
+        public void cargarCirculos(){
         getCirculo().setSup(Math.PI*Math.pow(getCirculo().getRadio(), 2));
         getCirculos().add(getCirculo());
         circulo = new Circulo();
